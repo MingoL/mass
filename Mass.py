@@ -6,6 +6,7 @@ O  = '\033[33m' # orange
 B  = '\033[34m' # blue
 P  = '\033[35m' # purple
 
+#The weight of the bag
 def Mass():
 	try:
 		print(G+"MASS"+W)
@@ -18,6 +19,7 @@ def Mass():
 	except ValueError:
 		return
 
+#Blow Up Ratio for the die
 def BUR():
 	try:
 		print(G+"BUR"+W)
